@@ -1,0 +1,14 @@
+
+div[class*="nameplated__"] > div[class*="container__"] {
+  background: none !important;
+}
+div[class*="nameplated__"] img[class*="img__"] {
+  display: none !important;
+}
+
+div[class*="interactive__"] > div[class*="container__"] {
+  background: none !important;
+}
+div[class*="interactive__"] img[class*="img__"] {
+  display: none !important;
+}
