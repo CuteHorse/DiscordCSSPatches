@@ -1,0 +1,6 @@
+[class*="clanTag__"] {
+  display: none !important;
+}
+[class*="clanTagChiplet_"] {
+  display: none !important;
+}
