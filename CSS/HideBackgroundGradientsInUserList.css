@@ -2,13 +2,13 @@
 div[class*="nameplated__"] > div[class*="container__"] {
   background: none !important;
 }
-div[class*="nameplated__"] img[class*="img__"] {
+div[class*="nameplated__"] *[class*="img__"] {
   display: none !important;
 }
 
 div[class*="interactive__"] > div[class*="container__"] {
   background: none !important;
 }
-div[class*="interactive__"] img[class*="img__"] {
+div[class*="interactive__"] *[class*="img__"] {
   display: none !important;
 }
