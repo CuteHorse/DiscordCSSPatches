@@ -1,6 +1,8 @@
-[class*="clanTag__"] {
-  display: none !important;
-}
-[class*="clanTagChiplet_"] {
+[class*="clanTag"],
+[class*="clanTagChiplet"],
+[class*="tagText"],
+[class*="clanBadge"],
+[class*="chipletContainerInner"][aria-label*="Server Tag"],
+[class*="chipletContainerInline"][aria-label*="Server Tag"] {
   display: none !important;
 }
