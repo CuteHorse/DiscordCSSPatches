@@ -1,14 +1,36 @@
 
-div[class*="nameplated__"] > div[class*="container__"] {
+
+div[aria-hidden="true"][style*="background:"] {
   background: none !important;
-}
-div[class*="nameplated__"] *[class*="img__"] {
-  display: none !important;
+  background-image: none !important;
 }
 
-div[class*="interactive__"] > div[class*="container__"] {
+div[class*="interactive"] > div[aria-hidden="true"][class*="fadeIn"] {
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+div[class*="interactive"] > div[aria-hidden="true"][class*="fadeIn"] img {
+  display: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+div[class*="interactiveSelected"]::before,
+div[class*="interactiveSelected"]::after {
   background: none !important;
 }
-div[class*="interactive__"] *[class*="img__"] {
+
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"] {
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"] > img[class*="-img"] {
   display: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
 }
