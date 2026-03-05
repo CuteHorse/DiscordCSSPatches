@@ -1,7 +1,7 @@
 Use at your own risk :3
 
 
-quick use (12.2025 version):
+quick use (03.2026 version):
 ```css
 div[aria-hidden="true"][style*="background:"] {
   background: none !important;
