@@ -39,6 +39,29 @@ div[class*="nameplated"] > div[aria-hidden="true"][class*="container"] > img[cla
 }
 
 
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"] {
+  background: none !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"] > img {
+  display: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"]::before,
+div[class*="nameplated"] > div[aria-hidden="true"][class*="container"]::after {
+  background: none !important;
+  background-image: none !important;
+  content: none !important;
+}
+
+
+
 [class*="clanTag"],
 [class*="clanTagChiplet"],
 [class*="tagText"],
